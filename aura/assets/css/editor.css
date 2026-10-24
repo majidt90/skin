@@ -1,0 +1,9 @@
+/* Aura: Site Editor and block editor canvas. Keeps reveal blocks visible while editing. */
+.editor-styles-wrapper .aura-reveal,
+.editor-styles-wrapper .aura-reveal.is-revealed {
+	opacity: 1;
+	translate: none;
+}
+.editor-styles-wrapper .aura-header {
+	position: relative;
+}

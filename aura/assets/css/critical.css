@@ -1,0 +1,7 @@
+/* Aura critical CSS: inlined in <head> to avoid layout shift on first paint. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--wp--preset--color--base,#fff);color:var(--wp--preset--color--contrast,#0f172a);font-family:var(--wp--preset--font-family--vazirmatn,Vazirmatn,Vazir,Tahoma,system-ui,-apple-system,"Segoe UI",sans-serif);font-size:var(--wp--preset--font-size--medium,1rem);line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,video,svg{max-width:100%;height:auto}
+.aura-header{position:relative;z-index:100;background:rgba(255,255,255,.72);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--wp--preset--color--border,#e2e8f0)}
+.aura-header-sticky .aura-header{position:sticky;top:0}
+.aura-js .aura-reveal:not(.is-revealed){opacity:0;translate:0 12px}

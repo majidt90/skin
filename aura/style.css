@@ -1,0 +1,22 @@
+/*
+Theme Name: Aura
+Theme URI: https://github.com/majidt90/skin
+Author: Aura Contributors
+Description: A minimal, ultra-fast, fully editable block theme for WooCommerce. Built for the Site Editor, Vazirmatn typography, RTL/Persian ready, with a light Customizer panel for global options. Speed first: no jQuery, no animation libraries, critical CSS inlined and non-critical CSS deferred.
+Requires at least: 6.8
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aura
+Domain Path: /languages
+Tags: block-patterns, block-styles, full-site-editing, wide-blocks, one-column, two-columns, e-commerce, rtl-language-support, custom-colors, custom-logo, editor-style, accessibility-ready
+*/
+
+/*
+ * Aura is a block theme. Its visual design is defined in theme.json.
+ * The critical CSS is in assets/css/critical.css (inlined in <head>).
+ * Non-critical CSS is in assets/css/aura.css (loaded without blocking render).
+ * This file only contains the required theme header.
+ */
